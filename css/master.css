@@ -43,6 +43,15 @@ body {
     border-radius: 15px;
 }
 
+.drk{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 15px;
+}
+
 /*HEADER*/
 .brand {
     display: inline-block;
@@ -83,15 +92,6 @@ body {
     bottom: 50px;
 }
 
-.hero div:first-child {
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    border-radius: 15px;
-}
-
 h3 {
     font-size: 25px;
 }
@@ -113,13 +113,49 @@ div > p {
     font-weight: 700;
 }
 
+/*colum*/
 .colums .col {
     float: left;
     width: 20%;
+    position: relative;
 }
 
 .colums .col:nth-child(2) {
     width: 60%;
+}
+
+.col-img1,
+.col-img2,
+.col-img3 {
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.col-img1 {
+    background-image: url(../img/img-1.jpg);
+}
+
+.col-img2 {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.col-img3 {
+    background-image: url(../img/img-3.jpg);
+}
+
+.over1 {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 15px;
+}
+
+div > h5 {
+    margin-bottom: 10px;
 }
 
 .fot {
