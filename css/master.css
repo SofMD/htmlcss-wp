@@ -95,14 +95,22 @@ body {
 h3 {
     font-size: 25px;
 }
-/*colums section*/
-.colums-section {
-    background-color: #0186ff; /*colore riferimento*/
+
+div > p {
+    font-size: 14px;
 }
 
+
+/*colums section*/
+
 .colum-header {
-    background-color: #abcfe7; /*colore riferimento*/
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.colum-header > h1 {
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
 }
 
 .colums .col {
